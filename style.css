@@ -41,7 +41,7 @@ nav {
   display: flex;
   align-items: center;
   background-color: #fff;
-  color: gray;
+  color: #808080;
   max-width: 1000px;
   margin-left: 15px;
   border-radius: 4px;
@@ -111,4 +111,58 @@ nav {
   align-items: center;
   gap: 5px;
   font-weight: 500;
+}
+
+.header-slider ul {
+  display: flex;
+  overflow-y: hidden;
+}
+.header-img {
+  max-width: 100%;
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.header-slider a {
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background-color: #ffffff4f;
+  color: #0000007b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.control_next {
+  right: 0;
+}
+
+.box-row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
+.box-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 20px;
+  background-color: #fff;
+  max-width: 24%;
+  min-height: 200px;
+  z-index: 1;
+}
+
+.box-col a {
+  font-size: 13px;
+  color: #009999;
+  font-weight: 500;
+}
+
+.header-box {
+  margin-top: -20vw;
 }
