@@ -183,7 +183,7 @@ nav {
 
 .products-slider .products img {
   max-width: 200px;
-  max-height: 200;
+  max-height: 200px;
 }
 
 .products-slider .products::-webkit-scrollbar {
